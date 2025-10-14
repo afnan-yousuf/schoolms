@@ -26,7 +26,8 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
-        <h1>Footer</h1>
+        
+        <h1 className="text-center text-sm border bg-blue-800 text-blue-100">Footer</h1>
       </body>
     </html>
   );
