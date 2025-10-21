@@ -1,6 +1,8 @@
 import { friends } from "./friends";
 
+
 export function GET() {
+  
   return Response.json(friends);
 }
 
